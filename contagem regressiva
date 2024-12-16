@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void) {
+int n;
+int i=0;
+printf("Numero? ");
+scanf("%d", &n);
+
+for(i=n ; i>=0 ; i--) {
+printf("%d\n",n);
+}
+}
